@@ -32,7 +32,7 @@ query {
 ```
 
 query {
-  getMovies(getMovieInput:{actor:"Arden Walter",title:"Unbranded Concrete Hat"}){
+  getMovies(getMovieInput:{actor:"Actor name",title:"Movie title"}){
     id
     title
     actors{
