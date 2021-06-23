@@ -1,0 +1,21 @@
+{
+  "port": 3001,
+  "baseUrl": "http://localhost:3001",
+  "frontendBaseUrl": "http://localhost:3000",
+  "shortFrontendBaseUrl": "http://localhost:3000",
+  "settings": {
+    "csrf": false,
+    "debug": false,
+    "loggerFormat": "tiny",
+    "session": {
+      "cookie": {
+        "sameSite": "lax"
+      }
+    }
+  },
+  "database": {
+    "type": "postgres",
+    "url": "postgres://movie-test:movie-test@localhost:5432/movie-test",
+    "synchronize": false
+  }
+}

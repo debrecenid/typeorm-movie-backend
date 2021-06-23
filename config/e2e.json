@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "loggerFormat": "none"
+  },
+  "database": {
+    "type": "postgres",
+    "url": "postgres://movie-test:movie-test@localhost:5432/movie-test",
+    "synchronize": false
+  }
+}
